@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+  .mainContentRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100vw - 300px);
+    h1 {
+      width: fit-content;
+      color: silver;
+      font-size: calc(10px + 2vmin);
+      border-bottom: 2px solid silver;
+    }
+  }
+}

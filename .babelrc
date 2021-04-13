@@ -1,0 +1,35 @@
+{
+  // * 执行顺序从后往前。
+  "presets": [
+    [
+      // * 使用 polyfill 代替一些浏览器不能识别的 ES 新的 API。
+      "@babel/preset-env",
+      {
+        // ! 防止 babel 将任何模块类型都转译成 CommonJS 类型，导致 tree-shaking 失效问题。
+        "modules": false
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": {
+          "version": 3,
+          "proposals": true
+        },
+        "useESModules": true
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ],
+    "transform-class-properties"
+  ]
+}

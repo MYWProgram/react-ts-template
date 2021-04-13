@@ -1,0 +1,28 @@
+.sidebarLeft {
+  width: 300px;
+  background-color: #242831;
+  .sidebarLeftTitle {
+    width: 100%;
+    height: 48px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #db305a;
+  }
+  :global {
+    .ant-menu-inline {
+      background-color: #282c34 !important;
+    }
+    .ant-menu-item-only-child {
+      margin: 0;
+    }
+    .ant-menu-item-selected {
+      background-color: #db305a !important;
+    }
+    .ant-menu-item-active:not(.ant-menu-item-selected) {
+      margin-left: 10px;
+      transform: scale(1.1);
+    }
+  }
+}
