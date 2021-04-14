@@ -1,8 +1,14 @@
 # react-ts-template
 
+[![React](https://img.shields.io/badge/-React-%232c3e50?style=for-the-badge&logo=React&logoColor=%2356d5fa)](https://github.com/MYWProgram/react-ts-template)
+
 使用`webpack`各种插件一步步搭建的模板，配合`TS`食用
 
 配置`Git`仓库`Template`可以直接点击使用模板，fork master 仓库进行快速项目开发；并且可以同步原仓库的版本更新
+
+## SDK Version
+
+[![React](https://img.shields.io/badge/React-%3E16.8-blue)](https://github.com/MYWProgram/react-ts-template)
 
 ## ESLint
 
