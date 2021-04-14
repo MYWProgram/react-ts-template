@@ -47,7 +47,7 @@
 
 ## externals
 
-模板中使用 CDN 加载了 react 和 react-dom，在普通的项目模板中这样使用 CDN 没有问题，但是如果需要发布到`npm`以供别人使用，就不能使用这样的方式，因为当其他人执行`npm install`后这种方式会确实 react 和 react-dom 这两个依赖；**一定要注意！**
+模板中使用 CDN 加载了 react 和 react-dom，在普通的项目模板中这样使用 CDN 没有问题，但是如果需要发布到`npm`以供别人使用，就不能使用这样的方式，因为当其他人执行`npm install`后这种方式会缺失 react 和 react-dom 这两个依赖；**一定要注意！**
 
 ## webpack
 
